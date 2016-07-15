@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "41940a76fd6f6ffc32d6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7fddb861146187987611"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -23205,7 +23205,7 @@
 /* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -23235,12 +23235,41 @@
 	  }
 
 	  _createClass(App, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'h1',
+	        "div",
 	        null,
-	        'Testing'
+	        _react2.default.createElement(
+	          "nav",
+	          { className: "navbar navbar-default" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "container-fluid" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "navbar-header" },
+	              _react2.default.createElement(
+	                "a",
+	                { className: "navbar-brand", href: "#" },
+	                "Match React Code Example - Liam Hatcher"
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container-fluid" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "col-md-6 col-md-offset-3 text-center" },
+	            _react2.default.createElement(
+	              "h3",
+	              null,
+	              "Test"
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
