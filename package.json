@@ -1,0 +1,25 @@
+{
+  "name": "matchchallenge",
+  "version": "1.0.0",
+  "description": "Coding challenge for Match",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhatcher/matchchallenge.git"
+  },
+  "author": "Liam Hatcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhatcher/matchchallenge/issues"
+  },
+  "homepage": "https://github.com/lhatcher/matchchallenge#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  }
+}
