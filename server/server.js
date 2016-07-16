@@ -49,14 +49,11 @@ app.get('/api/tweet_analysis', (req, res) => {
         sentiment = average > 0.5 ? 'positive' : 'negative';
       });
 
-
       // create object to store average weight of each persona
       let personas = {};
 
       indico.batchPersonas(tweetData).then( (personaData) => {
         // create initial key value pairs
-        console.log(personaData[0])
-
         for ( let persona in personaData[0] ) {
           personas[persona] = 0;
         }
@@ -69,8 +66,6 @@ app.get('/api/tweet_analysis', (req, res) => {
             personas[type] = personas[type] + persona[type];
           }
         });
-        console.log(personas);
-
       }).then( () => {
         // get largest value
         let MBTI_type = '';
