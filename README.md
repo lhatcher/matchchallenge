@@ -2,7 +2,7 @@
 
 This application gives a basic analysis of a user's Twitter activity. The analysis includes sentiment and MBTI personality type.
 
-![App demo](http://http://imgur.com/PLL27VD)
+![App demo](http://imgur.com/PLL27VD)
 
 > Based on the following recent tweets, @[username] is a [positive/negative] [personality type].
 
