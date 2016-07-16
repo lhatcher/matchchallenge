@@ -23,13 +23,13 @@ class App extends React.Component {
         <nav className="navbar navbar-default">
           <div className="container-fluid">
             <div className="navbar-header">
-              <a className="navbar-brand" href="#">Match React Code Example - Liam Hatcher</a>
+              <a className="navbar-brand" href="#">Twitter Persona Analysis</a>
             </div>
           </div>
         </nav>
         <div className="container-fluid">
           <div className="col-md-6 col-md-offset-3 text-center">
-            <h3>Twitter Persona Analysis</h3>
+            <h3>Created by Liam Hatcher</h3>
             <p className="text-info">This application will determine the MBTI type and general positivity/negativity of a person based on their most recent activity on Twitter. Enter someone's twitter user name and click the button to load an analysis, followed by their most recent tweets! </p>
             <form action="javascript:void(0)" id="userForm" onSubmit={this.analyze.bind(this)}>
               <div className="row">

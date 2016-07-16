@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "7149c328c13d1a5358b6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "238ea00a2023097f4a04"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -24081,7 +24081,7 @@
 	              _react2.default.createElement(
 	                'a',
 	                { className: 'navbar-brand', href: '#' },
-	                'Match React Code Example - Liam Hatcher'
+	                'Twitter Persona Analysis'
 	              )
 	            )
 	          )
@@ -24095,7 +24095,7 @@
 	            _react2.default.createElement(
 	              'h3',
 	              null,
-	              'Twitter Persona Analysis'
+	              'Created by Liam Hatcher'
 	            ),
 	            _react2.default.createElement(
 	              'p',
