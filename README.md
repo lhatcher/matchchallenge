@@ -4,8 +4,6 @@ This application gives a basic analysis of a user's Twitter activity. The analys
 
 ![App demo](twitterpersonademo.gif)
 
-> Based on the following recent tweets, @[username] is a [positive/negative] [personality type].
-
 ### Tech
 
 This project uses the following technologies and APIs:
