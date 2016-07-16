@@ -40,3 +40,14 @@ module.exports = {
   },
 };
 ```
+
+The final step is starting the Node.js server on port 3000. In a new terminal window:
+```
+$ nodemon server/server.js
+```
+or use this if automatic restart is not preferred
+```
+$ node server/server.js
+```
+
+
